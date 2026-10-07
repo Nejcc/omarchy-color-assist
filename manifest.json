@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "nejcc.color-assist",
+  "name": "Color Assist",
+  "version": "0.1.0",
+  "author": "Nejcc",
+  "license": "MIT",
+  "description": "Colorblind (deuteranopia, protanopia, tritanopia), grayscale and high-contrast screen filters via Hyprland screen shaders",
+  "homepage": "https://github.com/Nejcc/omarchy-color-assist",
+  "repository": "https://github.com/Nejcc/omarchy-color-assist",
+  "kinds": ["service", "bar-widget"],
+  "entryPoints": {
+    "service": "Service.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Color Assist",
+    "description": "Colorblind and contrast screen filters",
+    "category": "Display",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
