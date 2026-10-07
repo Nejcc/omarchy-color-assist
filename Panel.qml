@@ -35,7 +35,7 @@ Panel {
     bar: root.bar
     open: root.opened && root.anchorItem !== null
     focusTarget: keyCatcher
-    contentWidth: panel.fittedContentWidth(Style.space(300))
+    contentWidth: panel.fittedContentWidth(Style.space(400))
     contentHeight: panel.fittedContentHeight(column.implicitHeight)
 
     PanelKeyCatcher {
