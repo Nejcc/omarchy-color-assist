@@ -4,6 +4,8 @@ Screen-wide color filters for color vision deficiency, plus grayscale and high
 contrast. One click in the bar, applied by Hyprland itself, so every window,
 the bar and fullscreen video all get it.
 
+![Preview](preview.png)
+
 ## Why
 
 The plugin catalog had nothing for colorblind users, and accessibility on the
