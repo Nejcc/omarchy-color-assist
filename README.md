@@ -41,6 +41,14 @@ omarchy plugin add https://github.com/Nejcc/omarchy-color-assist.git
 
 Then add the **Color Assist** widget to the bar.
 
+## Uninstall
+
+```sh
+omarchy plugin remove nejcc.color-assist
+```
+
+Disabling or removing the plugin switches the filter off and restores the shader you had before. State lives in `~/.local/state/omarchy-color-assist/`.
+
 ## Usage
 
 - **Left click** the eye icon: panel with Off and every filter. Arrows or
